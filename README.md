@@ -1,2 +1,2 @@
-# light-switch
-A functional CSS generic household light switch
+**Functional CSS Light Switch**
+<br>A functional generic household light switch designed using CSS
