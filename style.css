@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #37474f linear-gradient(190deg, #37474f, #304040);
+}
+
+body>div {
+  position: relative;
+  width: 40vmin;
+  height: 70vmin;
+  background: #fff linear-gradient(10deg, #fff, #f9f9f9);
+  border: 2vmin #eee solid;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3), 1px -1px 1px rgba(0,0,0,.3), -1px -1px 1px rgba(0,0,0,.3), -1px 1px 1px rgba(0,0,0,.3);
+}
+
+body>div:before {
+  content: "";
+  position: absolute;
+  top: 2vmin;
+  right: 0;
+  left: 0;
+  width: 4vmin;
+  height: 4vmin;
+  margin: auto;
+  background: #eee linear-gradient(to right, #eee 40%, #bbb 45%, #bbb 55%, #eee 55%);
+  border: 1px #999 solid;
+  border-radius: 100vmax;
+  z-index: 1;
+  transform: rotate(-16deg);
+}
+
+body>div:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 2vmin;
+  left: 0;
+  width: 4vmin;
+  height: 4vmin;
+  margin: auto;
+  background: #eee linear-gradient(to right, #eee 40%, #bbb 45%, #bbb 55%, #eee 55%);
+  border: 1px #999 solid;
+  border-radius: 100vmax;
+  z-index: 1;
+  transform: rotate(59deg);
+}
+
+div>div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 25vmin;
+  height: 50vmin;
+  margin: auto;
+  background: #eee;
+  border: 1vmin #eee solid;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3), 1px -1px 1px rgba(0,0,0,.3), -1px -1px 1px rgba(0,0,0,.3), -1px 1px 1px rgba(0,0,0,.3);
+}
+
+div>div:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 26vmin;
+  background: #fafafa;
+  border: 1px rgba(0,0,0,.4) solid;
+  border-bottom: 0;
+  box-shadow: 0 -2px 2px rgba(0,0,0,0.4);
+}
+
+div>div:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 24vmin;
+  background: #f3f3f3;
+  border: 1px rgba(0,0,0,.4) solid;
+  border-top: 0;
+}
+
+input[type="checkbox"] {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  -webkit-appearance: none;
+  outline: 0;
+  z-index: 2;
+}
