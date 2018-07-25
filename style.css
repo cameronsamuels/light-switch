@@ -15,7 +15,8 @@ body>div {
   width: 40vmin;
   height: 70vmin;
   background: #fff linear-gradient(10deg, #fff, #f9f9f9);
-  border: 2vmin #eee solid;
+  border: 2vmin #f3f3f3 solid;
+  border-radius: 1vmin;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3), 1px -1px 1px rgba(0,0,0,.3), -1px -1px 1px rgba(0,0,0,.3), -1px 1px 1px rgba(0,0,0,.3);
 }
 
