@@ -1,2 +1,2 @@
-[**Functional CSS Light Switch**](https://cameronsamuels.com/light-switch)
+**Functional CSS Light Switch**
 <br>A functional generic household light switch designed using CSS
