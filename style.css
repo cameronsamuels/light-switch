@@ -8,6 +8,7 @@ body {
   margin: 0;
   background: #37474f linear-gradient(190deg, #37474f, #304040);
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
 
 body>div {
@@ -104,4 +105,40 @@ input[type="checkbox"] {
   z-index: 2;
   opacity: 0;
   cursor: pointer;
+}
+
+@media all and (orientation: portrait) {
+  body>div {
+    width: 60vmin;
+    height: 105vmin;
+    border: 3vmin #f3f3f3 solid;
+    border-radius: 1.5min;
+  }
+
+  body>div:before {
+    top: 3vmin;
+    width: 6vmin;
+    height: 6vmin;
+  }
+
+  body>div:after {
+    bottom: 3vmin;
+    width: 6vmin;
+    height: 6vmin;
+  }
+
+  div>div {
+    width: 38vmin;
+    height: 75vmin;
+    border: 1.5vmin #eee solid;
+  }
+
+  div>div:before {
+    height: 39vmin;
+  }
+
+  div>div:after {
+    height: 36vmin;
+  }
+
 }
