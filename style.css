@@ -145,7 +145,7 @@ input[type="checkbox"] {
 /* Promotional Link */
 a {
   display: none;
-  position: absolute;
+  position: fixed;
   bottom: 4vmin;
   padding: 3px;
   color: #000;
