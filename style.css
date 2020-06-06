@@ -148,7 +148,7 @@ a {
   position: absolute;
   bottom: 4vmin;
   padding: 3px;
-  color: #fff;
+  color: #000;
 }
 a:before {
   content: "End Police Violence!";
@@ -157,7 +157,7 @@ a:before {
   font-weight: bold;
 }
 a:hover {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   text-decoration: none;
 }
