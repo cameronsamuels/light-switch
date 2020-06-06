@@ -141,3 +141,22 @@ input[type="checkbox"] {
   }
 
 }
+
+/* Promotional Link */
+a {
+  position: absolute;
+  bottom: 4vmin;
+  padding: 3px;
+  color: #fff;
+}
+a:before {
+  content: "End Police Violence!";
+  font-family: helvetica, arial, sans-serif;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+a:hover {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
